@@ -1,0 +1,13 @@
+{
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "files.exclude": {
+        "**/.pytest_cache": true,
+        "**/.python-version": true,
+        "**/.venv": true,
+        "**/.vscode": true
+    }
+}
