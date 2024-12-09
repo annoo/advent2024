@@ -55,7 +55,7 @@ def solve_part1(input):
 
 
 def create_modified_report(report: list[int]) -> Iterator[list[int]]:
-    for i in range(1, len(report)):
+    for i in range(len(report)):
         yield report[:i] + report[i + 1:]
 
 
