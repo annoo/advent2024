@@ -1,7 +1,7 @@
 import pytest
 from day0.solution import solve_part1, solve_part2
 
-input = "day0/test_intput.txt"
+input = "day0/test_input.txt"
 
 @pytest.mark.parametrize(
     "part, input_data, expected_output",
