@@ -1,13 +1,13 @@
 import pytest
-from day1.solution import solve_part1, solve_part2
+from day2.solution import solve_part1, solve_part2
 
-input = "day1/test_intput.txt"
+input = "day2/test_input.txt"
 
 @pytest.mark.parametrize(
     "part, input_data, expected_output",
     [
-        (1, input, 11),
-        (2, input, 31),
+        (1, input, 2),
+        (2, input, 4),
     ],
 )
 def test_solve(part, input_data, expected_output):
