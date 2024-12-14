@@ -40,6 +40,6 @@ def setup_new_day(day_number):
         print(f"{day_dir} already exists")
 
 # Example usage
-setup_new_day(3)
+setup_new_day(4)
 
 # uv run --env-file .env automation.py
