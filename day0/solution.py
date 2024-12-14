@@ -17,13 +17,6 @@ def solve_part2(input):
     return 1
 
 
-def generate_solution(puzzle):
-    solution1 = solve_part1(puzzle)
-    solution2 = solve_part2(puzzle)
-    print(f"\n\nsolution part 1 : {solution1}")
-    print(f"\nsolution part 2 : {solution2}")
-
-
 if __name__ == "__main__":
     solution1 = solve_part1(puzzle_input)
     solution2 = solve_part2(puzzle_input)
